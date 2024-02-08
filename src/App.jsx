@@ -4,6 +4,8 @@ import Home from './components/Home'
 import About from './components/About'
 import Courses from './components/Courses'
 import Reviews from './components/Reviews'
+import Contact from './components/Contact'
+import Footer from './components/Footer'
 const App = () => {
   return (
     <div><Navbar/>
@@ -27,7 +29,10 @@ const App = () => {
           </div>
 
           <div id="contact">
-            {/* <Contact /> */}
+            <Contact />
+          </div>
+          <div id="footer">
+            <Footer />
           </div>
         </main>
     
