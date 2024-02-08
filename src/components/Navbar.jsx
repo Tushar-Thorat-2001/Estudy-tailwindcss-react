@@ -18,19 +18,19 @@ const Navbar = () => {
                 </Link>
              </div>
               <nav className="hidden md:flex gap-5 font-bold p-1 text-lg">
-                <Link to="/home" spy={true} smooth={true} duration={500} className="hover:text-[#539165] transition-all cursor-pointer">
+                <Link to="home" spy={true} smooth={true} duration={500} className="hover:text-[#539165] transition-all cursor-pointer">
                 Home
                 </Link>
-                <Link to="/home" spy={true} smooth={true} duration={500} className="hover:text-[#539165] transition-all cursor-pointer">
+                <Link to="about" spy={true} smooth={true} duration={500} className="hover:text-[#539165] transition-all cursor-pointer">
                 About
                 </Link>
-                <Link to="/home" spy={true} smooth={true} duration={500} className="hover:text-[#539165] transition-all cursor-pointer">
+                <Link to="courses" spy={true} smooth={true} duration={500} className="hover:text-[#539165] transition-all cursor-pointer">
                 Courses
                 </Link>
-                <Link to="/home" spy={true} smooth={true} duration={500} className="hover:text-[#539165] transition-all cursor-pointer">
+                <Link to="reviews" spy={true} smooth={true} duration={500} className="hover:text-[#539165] transition-all cursor-pointer">
                 Reviews
                 </Link>
-                <Link to="/home" spy={true} smooth={true} duration={500} className="hover:text-[#539165] transition-all cursor-pointer">
+                <Link to="contact" spy={true} smooth={true} duration={500} className="hover:text-[#539165] transition-all cursor-pointer">
                 Contact
                 </Link>
             </nav>

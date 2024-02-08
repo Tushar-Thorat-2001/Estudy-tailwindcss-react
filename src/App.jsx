@@ -3,15 +3,33 @@ import Navbar from './components/Navbar'
 import Home from './components/Home'
 import About from './components/About'
 import Courses from './components/Courses'
+import Reviews from './components/Reviews'
 const App = () => {
   return (
     <div><Navbar/>
       
-      <Home/>
+    
+      <main>
+          <div id="home">
+            <Home />
+          </div>
 
-      <About/>
+          <div id="about">
+            <About />
+          </div>
 
-      <Courses/>
+          <div id="courses">
+            <Courses />
+          </div>
+
+          <div id="reviews">
+            <Reviews />
+          </div>
+
+          <div id="contact">
+            {/* <Contact /> */}
+          </div>
+        </main>
     
     </div>
   )
